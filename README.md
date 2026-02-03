@@ -74,7 +74,7 @@ This repository contains a production-ready **Task Management System** built wit
    uvicorn app.main:app --reload
    ```
 
-#### Frontend to run seperately (Not dockerised)
+## Frontend to run seperately (Not dockerised)
 1. Open new terminal and navigate to frontend directory:
    ```bash
    cd frontend
@@ -131,6 +131,7 @@ PrimeTrade/
 ├── Dockerfile          # Backend image build
 └── requirements.txt    # Python dependencies
 ```
+
 
 
 
