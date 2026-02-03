@@ -132,6 +132,11 @@ PrimeTrade/
 └── requirements.txt    # Python dependencies
 ```
 
+<img width="1873" height="898" alt="image" src="https://github.com/user-attachments/assets/10ed2f22-11d1-4ae7-be5a-d68f0f13abb0" />
+<img width="1873" height="898" alt="image" src="https://github.com/user-attachments/assets/10ed2f22-11d1-4ae7-be5a-d68f0f13abb0" />
+
+
+
 
 
 
