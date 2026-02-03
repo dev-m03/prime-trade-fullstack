@@ -37,7 +37,7 @@ This repository contains a production-ready **Task Management System** built wit
 ### Option 1: Run with Docker (Recommended)
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/dev-m03/prime-trade-fullstack
    cd PrimeTrade
    ```
 
@@ -74,8 +74,8 @@ This repository contains a production-ready **Task Management System** built wit
    uvicorn app.main:app --reload
    ```
 
-#### Frontend
-1. Navigate to frontend directory:
+#### Frontend to run seperately (Not dockerised)
+1. Open new terminal and navigate to frontend directory:
    ```bash
    cd frontend
    ```
@@ -131,3 +131,4 @@ PrimeTrade/
 ├── Dockerfile          # Backend image build
 └── requirements.txt    # Python dependencies
 ```
+
