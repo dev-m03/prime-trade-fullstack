@@ -43,7 +43,7 @@ This repository contains a production-ready **Task Management System** built wit
 
 2. **Set up environment variables**:
    ```bash
-   mv .env.example .env
+   copy .env.example .env
    # Edit .env if needed (default values work for local dev)
    ```
 
@@ -131,5 +131,6 @@ PrimeTrade/
 ├── Dockerfile          # Backend image build
 └── requirements.txt    # Python dependencies
 ```
+
 
 
