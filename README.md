@@ -1,4 +1,4 @@
-# PrimeTrade Backend Intern Assignment
+# Documentation for Setup and Testing
 
 This repository contains a production-ready **Task Management System** built with **FastAPI** (Backend) and **React** (Frontend). It demonstrates secure authentication, role-based access control (RBAC), and scalable architecture practices.
 
@@ -131,4 +131,5 @@ PrimeTrade/
 ├── Dockerfile          # Backend image build
 └── requirements.txt    # Python dependencies
 ```
+
 
