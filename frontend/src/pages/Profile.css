@@ -1,0 +1,114 @@
+.profile-page {
+    min-height: calc(100vh - 64px);
+    padding: 40px 0;
+}
+
+.profile-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(14, 165, 233, 0.1));
+    border-bottom: 1px solid var(--border-color);
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.profile-info h1 {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.profile-email {
+    color: var(--text-secondary);
+}
+
+.profile-details {
+    padding: 24px 32px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    color: var(--text-secondary);
+}
+
+.role-badge,
+.status-badge {
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.role-admin {
+    background: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+}
+
+.role-user {
+    background: rgba(99, 102, 241, 0.2);
+    color: #a5b4fc;
+}
+
+.status-active {
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+}
+
+.profile-api-info {
+    margin: 0 32px 32px;
+    padding: 20px;
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    border-radius: var(--radius-md);
+}
+
+.profile-api-info h3 {
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    margin-bottom: 12px;
+}
+
+.profile-api-info code {
+    display: block;
+    background: var(--bg-input);
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    color: var(--color-secondary);
+    margin-bottom: 12px;
+}
+
+.profile-api-info p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}

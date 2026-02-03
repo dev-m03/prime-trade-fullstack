@@ -1,0 +1,107 @@
+.auth-page {
+    min-height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.auth-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 460px;
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .auth-container {
+        grid-template-columns: 1fr 300px;
+        max-width: 800px;
+    }
+}
+
+.auth-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 40px;
+    box-shadow: var(--shadow-lg);
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.auth-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--text-primary), var(--color-primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.auth-subtitle {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-submit {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+
+.form-hint {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Auth Info Panel */
+.auth-info {
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    align-self: start;
+}
+
+.auth-info h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 12px;
+}
+
+.auth-info p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.auth-info code {
+    display: block;
+    background: var(--bg-input);
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    color: var(--color-secondary);
+    margin: 12px 0;
+}
