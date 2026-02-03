@@ -6,7 +6,7 @@ This repository contains a production-ready **Task Management System** built wit
 
 ### Backend (FastAPI)
 - **Authentication**: JWT-based secure login & registration (BCrypt hashing).
-- **RBAC**: Role-based access control (Admin vs. User).
+- **RBAC**: Role-based access control (Admin vs. User). (By default login is USER and in database we have to change role to ADMIN to convert USER to ADMIN)
 - **CRUD Operations**: Complete management for Tasks.
 - **Security**: Input validation (Pydantic), exception handling, and secure headers.
 - **Database**: PostgreSQL with SQLAlchemy ORM (Async).
@@ -133,6 +133,7 @@ PrimeTrade/
 ```
 
 <img width="1873" height="898" alt="image" src="https://github.com/user-attachments/assets/10ed2f22-11d1-4ae7-be5a-d68f0f13abb0" />
+
 
 
 
